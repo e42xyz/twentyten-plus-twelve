@@ -3,7 +3,19 @@ Twenty Ten Plus 12
 
 A continuation of the Twenty Ten theme, with a few new features.
 
+Default Light View
 ![Twenty Ten Plus 12 Screenshot](https://raw.githubusercontent.com/e42xyz/twentyten-plus-twelve/master/screenshot.png)
+
+Night Mode (Dark) View
+![Twenty Ten Plus 12 Dark Mode Screenshot](https://raw.githubusercontent.com/e42xyz/twentyten-plus-twelve/master/screenshot-dark.png)
+
+Mobile layout in Light Mode
+
+![Twenty Ten Plus 12 Fluid Screenshot](https://raw.githubusercontent.com/e42xyz/twentyten-plus-twelve/master/screenshot-fluid.png)
+
+Mobile layout in Dark Mode
+
+![Twenty Ten Plus 12 Fluid Dark Mode Screenshot](https://raw.githubusercontent.com/e42xyz/twentyten-plus-twelve/master/screenshot-fluid-dark.png)
 
 ### How to install:
 
