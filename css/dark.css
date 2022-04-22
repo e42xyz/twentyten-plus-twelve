@@ -1,0 +1,465 @@
+/* =Dark Color Scheme
+-------------------------------------------------------------- */
+
+.tt-darkmode body {
+	background: #7e7474;
+	color: #bbb;
+}
+
+.tt-darkmode #wrapper {
+	background: #39311d;
+}
+
+/* Headings */
+.tt-darkmode hr {
+	background-color: #333;
+}
+
+/* Text elements */
+.tt-darkmode blockquote cite {
+	color: #999;
+}
+.tt-darkmode pre {
+	background: #0b0b0b;
+	color: #bbb;
+}
+.tt-darkmode code, kbd {
+	font: 13px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+.tt-darkmode abbr, acronym, dfn {
+	border-bottom: 1px dotted #999;
+}
+.tt-darkmode ins {
+	background: #00063f;
+}
+.tt-darkmode #respond input[type="submit"],
+.tt-darkmode input[type="submit"],
+.tt-darkmode input[type="reset"] {
+	color: #fff!important;
+    background-color: #7e7474;
+}
+.tt-darkmode input[type="submit"]:hover {
+	cursor: pointer;
+}
+.tt-darkmode input[type="text"],
+.tt-darkmode input[type="password"],
+.tt-darkmode input[type="email"],
+.tt-darkmode input[type="url"],
+.tt-darkmode input[type="number"],
+.tt-darkmode textarea {
+	background: #333!important;
+	border: 1px solid #333;
+	-webkit-box-shadow: inset 2px 2px 2px #000;
+		-moz-box-shadow: inset 2px 2px 2px #000;
+			box-shadow: inset 2px 2px 2px #000;
+	color: #bbb;
+}
+.tt-darkmode input[type="text"]:focus,
+.tt-darkmode input[type="password"]:focus,
+.tt-darkmode input[type="email"]:focus,
+.tt-darkmode input[type="url"]:focus,
+.tt-darkmode input[type="number"]:focus,
+.tt-darkmode textarea:focus {
+    border: 1px solid #333;
+	-webkit-box-shadow: inset 3px 3px 3px rgba(8, 8, 8, 0.7), 0 0 8px rgba(236,240,241, 0.6);
+		-moz-box-shadow: inset 3px 3px 3px rgba(8, 8, 8, 0.7), 0 0 8px rgba(236,240,241, 0.6);
+			box-shadow: inset 3px 3px 3px rgba(8, 8, 8, 0.7), 0 0 8px rgba(236,240,241, 0.6);
+}
+
+/* Links */
+.tt-darkmode a:link {
+	color: #FFDD93;
+	text-decoration: none;
+}
+.tt-darkmode a:active,
+.tt-darkmode a:hover {
+	color: #fd79a8;
+	text-decoration: underline;
+}
+
+/* Scroll Button */
+
+.tt-darkmode .scroll-top {
+	background: #fff;
+	border: 1px solid #bdc3c7;
+	bottom: 10px;
+	cursor: pointer;
+	display: block!important;
+	padding: 5px 10px;
+	position: fixed;
+	right: 20px;
+	z-index: 9999;
+	-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+			border-radius: 2px;
+}
+.tt-darkmode .scroll-top:hover {
+	-webkit-box-shadow: inset 0 2px 3px rgba(236, 240, 241, 0.2);
+		-moz-box-shadow: inset 0 2px 3px rgba(236, 240, 241, 0.2);
+			box-shadow: inset 0 2px 3px rgba(236, 240, 241, 0.2);
+}
+.tt-darkmode .scroll-top:active {
+	outline: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(236, 240, 241, 0.35);
+		-moz-box-shadow: inset 0 3px 5px rgba(236, 240, 241, 0.35);
+			box-shadow: inset 0 3px 5px rgba(236, 240, 241, 0.35);
+}
+.tt-darkmode .scroll-top a,
+.tt-darkmode .scroll-top a:hover {
+	color: #ecf0f1;
+	text-decoration: none;
+}
+.tt-darkmode .scroll-top a:active,
+.tt-darkmode .scroll-top a:focus {
+	outline: 0;
+}
+
+/* =Header
+----------------------------------------------- */
+
+.tt-darkmode #site-title a,
+.tt-darkmode #site-title a:hover,
+.tt-darkmode #site-title a:focus,
+.tt-darkmode #site-title a:active {
+	color: #c4B6B6;
+}
+.tt-darkmode #site-description {
+	color: #858585;
+}
+.tt-darkmode #branding img {
+	border-color: #373737;
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.tt-darkmode #access {
+	background-color: #374045;
+	z-index: 99999;
+}
+.tt-darkmode #access.fixedMenu {
+    margin-top: 0;
+	position: fixed;
+	top: 0px;
+	z-index:99999;
+	-webkit-border-radius: 0 0 3px 3px;
+		-moz-border-radius: 0 0 3px 3px;
+			border-radius: 0 0 3px 3px;
+}
+.tt-darkmode #access ul ul a {
+	background: #222;
+}
+.tt-darkmode .navbar-btn .icon-bar {
+    background-color: #c4B6B6;
+}
+
+/* =Content
+----------------------------------------------- */
+
+.tt-darkmode .page-title {
+	color: #ccc;
+}
+.tt-darkmode .hentry {
+	border-color: #222;
+}
+.tt-darkmode #content,
+.tt-darkmode #content input,
+.tt-darkmode #content textarea {
+	color: #bbb;
+}
+.tt-darkmode #content .entry-title {
+	color: #ddd;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+.tt-darkmode #content .entry-title,
+.tt-darkmode #content .entry-title a {
+	color: #ddd;
+}
+.tt-darkmode #content .entry-title a:hover,
+.tt-darkmode #content .entry-title a:focus,
+.tt-darkmode #content .entry-title a:active {
+	color: #fd79a8;
+}
+.tt-darkmode #content dt,
+.tt-darkmode #content th {
+	color: #ddd;
+}
+.tt-darkmode #content h1,
+.tt-darkmode #content h2,
+.tt-darkmode #content h3,
+.tt-darkmode #content h4,
+.tt-darkmode #content h5,
+.tt-darkmode #content h6 {
+	color: #ddd;
+}
+.tt-darkmode .home .sticky {
+	background: #1d1d1d;
+	border-color: #7e7474;
+}
+.tt-darkmode .entry-meta,
+.tt-darkmode .entry-meta a,
+.tt-darkmode .entry-utility,
+.tt-darkmode .entry-utility a {
+	color: #C4B6B6;
+}
+
+.tt-darkmode .entry-meta a:hover,
+.tt-darkmode .entry-utility a:hover {
+	color: #fd79a8;
+}
+
+.tt-darkmode .entry-content h1,
+.tt-darkmode .entry-content h2,
+.tt-darkmode .comment-content h1,
+.tt-darkmode .comment-content h2 {
+	color: #fff;
+}
+.tt-darkmode .entry-content table,
+.tt-darkmode .comment-content table {
+	border-color: #222;
+}
+.tt-darkmode .entry-content th,
+.tt-darkmode .comment-content th {
+	color: #999;
+}
+.tt-darkmode .entry-content td,
+.tt-darkmode .comment-content td {
+	border-color: #222;
+}
+.tt-darkmode #content tr.odd td {
+	background: #373737;
+}
+.tt-darkmode .entry-content fieldset legend {
+	background: #333;
+	border: 1px solid #ccc;
+	color: #bbb;
+}
+.tt-darkmode .page-link {
+	color: #ddd;
+}
+.tt-darkmode .home .sticky .page-link a:link,
+.tt-darkmode .home .sticky .page-link a:visited,
+.tt-darkmode .page-link a:link,
+.tt-darkmode .page-link a:visited {
+	background: #242424;
+	color: #bbb;
+}
+.tt-darkmode .home .sticky .page-link a:hover,
+.tt-darkmode .home .sticky .page-link a:active,
+.tt-darkmode .page-link a:active,
+.tt-darkmode .page-link a:hover {
+	background: #999;
+	color: #000;
+}
+.tt-darkmode .entry-meta .edit-link a {
+	background: #242424;
+	color: #bbb;
+}
+.tt-darkmode .entry-meta .edit-link a:hover,
+.tt-darkmode .entry-meta .edit-link a:focus,
+.tt-darkmode .entry-meta .edit-link a:active {
+	background: #999;
+	color: #000;
+}
+
+/* Images */
+.tt-darkmode #content figure,
+.tt-darkmode #content .wp-caption {
+	background: #2c2c2c;
+}
+.tt-darkmode #content .wp-caption p.wp-caption-text,
+.tt-darkmode #content .wp-caption .wp-caption-text:before {
+	color: #999;
+}
+
+/* Image borders */
+.tt-darkmode img[class*="wp-image-"],
+.tt-darkmode #content .gallery .gallery-icon img,
+.tt-darkmode #content .wp-caption img {
+	border-color: #2c2c2c;
+}
+
+/* Password Protected Posts */
+.tt-darkmode .post-password-required input[type=password] {
+	background: #ddd;
+}
+.tt-darkmode .post-password-required input[type=password]:focus {
+	background: #fff;
+}
+
+.tt-darkmode #entry-author-info #author-avatar {
+	background: #242424;
+}
+
+
+/* =Quote
+----------------------------------------------- */
+
+.tt-darkmode .format-quote blockquote {
+	color: #aaa;
+}
+
+
+/* =Widgets
+----------------------------------------------- */
+
+.tt-darkmode .widget-title {
+	color: #ccc;
+}
+.tt-darkmode .widget ul li {
+	color: #888;
+}
+
+/* Calendar Widget */
+.tt-darkmode .widget_calendar #wp-calendar {
+	color: #aaa;
+}
+.tt-darkmode .widget_calendar #wp-calendar th {
+	background: #0b0b0b;
+	border-color: #333;
+}
+.tt-darkmode .widget_calendar #wp-calendar tfoot td {
+	background: #0b0b0b;
+	border-color: #333;
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+.tt-darkmode .navigation {
+	color: #C4B6B6;
+	font-size: 12px;
+	line-height: 18px;
+	overflow: hidden;
+}
+.tt-darkmode .navigation a:link,
+.tt-darkmode .navigation a:visited {
+	color: #C4B6B6;
+	text-decoration: none;
+}
+.tt-darkmode .navigation a:active,
+.tt-darkmode .navigation a:hover {
+	color: #fd79a8;
+}
+
+
+/* =Comments
+----------------------------------------------- */
+
+.tt-darkmode #comments-title {
+	color: #bbb;
+}
+.tt-darkmode .nocomments {
+	color: #555;
+}
+.tt-darkmode .commentlist > li.comment {
+	background: #7e7474;
+	border-color: #222;
+}
+.tt-darkmode .commentlist .children li.comment {
+	background: #000;
+	border-color: #222;
+}
+.tt-darkmode .rtl .commentlist .children li.comment {
+	border-color: #222;
+}
+.tt-darkmode .comment-author .fn,
+.tt-darkmode .comment-meta {
+	color: #f9f9f9;
+}
+.tt-darkmode .commentlist .avatar {
+	-webkit-box-shadow: 0 1px 2px #222;
+	-moz-box-shadow: 0 1px 2px #222;
+	box-shadow: 0 1px 2px #222;
+}
+.tt-darkmode a.comment-reply-link {
+	background: transparent;
+	color: #bbb;
+}
+.tt-darkmode li.bypostauthor a.comment-reply-link {
+	background: #111;
+}
+.tt-darkmode a.comment-reply-link:hover,
+.tt-darkmode a.comment-reply-link:focus,
+.tt-darkmode a.comment-reply-link:active,
+.tt-darkmode li.bypostauthor a.comment-reply-link:hover,
+.tt-darkmode li.bypostauthor a.comment-reply-link:focus,
+.tt-darkmode li.bypostauthor a.comment-reply-link:active {
+	background: #999;
+	color: #f9f9f9;
+}
+
+/* Comment Form */
+.tt-darkmode #respond input[type="text"],
+.tt-darkmode #respond #email,
+.tt-darkmode #respond #url,
+.tt-darkmode #respond textarea {
+	background: #333;
+	border: 1px solid #333;
+	color: #bbb;
+	-webkit-box-shadow: inset 2px 2px 2px #000;
+		-moz-box-shadow: inset 2px 2px 2px #000;
+			box-shadow: inset 2px 2px 2px #000;
+}
+.tt-darkmode #respond input[type="text"]:focus,
+.tt-darkmode #respond #email:focus,
+.tt-darkmode #respond #url:focus,
+.tt-darkmode #respond textarea:focus {
+	-webkit-box-shadow: inset 3px 3px 3px rgba(8, 8, 8, 0.7), 0 0 8px rgba(236,240,241, 0.6);
+		-moz-box-shadow: inset 3px 3px 3px rgba(8, 8, 8, 0.7), 0 0 8px rgba(236,240,241, 0.6);
+			box-shadow: inset 3px 3px 3px rgba(8, 8, 8, 0.7), 0 0 8px rgba(236,240,241, 0.6);
+}
+.tt-darkmode #respond .comment-form-author label,
+.tt-darkmode #respond .comment-form-email label,
+.tt-darkmode #respond .comment-form-url label,
+.tt-darkmode #respond .comment-form-comment label {
+	color: #aaa;
+}
+.tt-darkmode .rtl #respond .comment-form-author label,
+.tt-darkmode .rtl #respond .comment-form-email label,
+.tt-darkmode .rtl #respond .comment-form-url label,
+.tt-darkmode .rtl #respond .comment-form-comment label {
+}
+.tt-darkmode #respond .required {
+	color: #42caff;
+}
+.tt-darkmode #respond #cancel-comment-reply-link {
+	color: #999;
+}
+.tt-darkmode #reply-title {
+	color: #ccc;
+}
+.tt-darkmode #cancel-comment-reply-link {
+	color: #777;
+}
+.tt-darkmode #cancel-comment-reply-link:focus,
+.tt-darkmode #cancel-comment-reply-link:active,
+.tt-darkmode #cancel-comment-reply-link:hover {
+	color: #00b4cc;
+}
+
+
+/* =Footer
+----------------------------------------------- */
+
+.tt-darkmode #site-info a {
+	color: #bbb;
+}
+.tt-darkmode #site-generator {
+	color: #C4B6B6;
+	font-style: italic;
+	position: relative;
+}
+.tt-darkmode #site-generator a {
+	background: none;
+	color: #C4B6B6;
+	display: inline-block;
+	line-height: 16px;
+	padding-left: 0px;
+	text-decoration: none;
+}
+.tt-darkmode #site-generator a:hover {
+	text-decoration: underline;
+}
